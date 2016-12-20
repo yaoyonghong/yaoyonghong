@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 下载
  git clone https://code.aliyun.com/task2016/allcommand.git
 进入目录
@@ -31,3 +32,7 @@ github 项目地址
 启动文件 app.js
 端口号
 公司名
+=======
+# yaoyonghong
+项目
+>>>>>>> e92c6a516859903cd2a7918589cc7a4289418ece
