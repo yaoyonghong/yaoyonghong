@@ -1,0 +1,91 @@
+body {
+  background-color: #efefef;
+}
+.header {
+  height: 35px;
+  background-color: #fff;
+  line-height: 35px;
+}
+.header .icon-back {
+  position: absolute;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../img/nav_back_icon@2x.png");
+}
+.header .header-title {
+  display: inline-block;
+  width: 100%;
+  color: #ed692b;
+  text-align: center;
+}
+.form-list {
+  width: 100%;
+  height: 80px;
+}
+.form-list .form-cell {
+  position: relative;
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+}
+.form-list .form-cell-name {
+  display: inline-block;
+  width: 50px;
+  padding-left: 40px;
+}
+.form-list .form-cell .form-cell-name {
+  display: inline-block;
+  width: 50px;
+  padding-left: 40px;
+  background: url("");
+  background-size: 25% 50%;
+}
+.form-list .form-cell .form-cell-input {
+  flex: 1;
+}
+.form-list .form-cell .form-cell-input2 {
+  flex: 2;
+}
+.form-list .form-cell .form-cell-input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.form-list .form-cell:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 10px;
+  z-index: 5;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #efefef;
+}
+.form-list .form-cell .fic-box {
+  display: flex;
+}
+.form-list .form-cell .input-box {
+  display: block;
+  flex: 1;
+}
+.form-list .form-cell .bt_box {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7c7c7;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 40px;
+}
+.form-list .form-cell .bt_reg {
+  padding-left: 10px;
+  color: #ed692b;
+  flex: 1;
+}
+.form-list .form-cell .bt-passwd {
+  padding-right: 10px;
+}

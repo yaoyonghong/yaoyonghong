@@ -1,0 +1,65 @@
+body {
+  background-color: #efefef;
+}
+.header {
+  height: 65px;
+  background-color: #fff;
+  display: flex;
+  border-bottom: 1px solid #d6d7dc;
+}
+.header .icon-back {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 25%;
+}
+.header .header_title {
+  flex: 1;
+  padding-right: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-family: '微软雅黑';
+  font-size: 20px;
+}
+.info-cells {
+  background-color: #fff;
+  margin-top: 11px;
+}
+.info-cell {
+  padding: 0 15px;
+  display: flex;
+  line-height: 40px;
+  border-bottom: 1px solid #e1e1e1;
+  color: #646464;
+  font-family: '微软雅黑';
+}
+.info-name {
+  flex: 3;
+  font-size: 18px;
+  font-family: '微软雅黑';
+}
+.info-content {
+  flex: 2;
+  text-indent: 10px;
+  background: url("../../img/03.png") no-repeat center;
+}
+.image-cell {
+  display: flex;
+  margin-top: 23px;
+}
+.image-block {
+  flex: 1;
+  margin: 0 11px;
+  text-align: center;
+  font-size: 16px;
+  color: #878787;
+  font-family: '微软雅黑';
+}
+.image-block div {
+  width: 100px;
+  height: 65px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #878787;
+}

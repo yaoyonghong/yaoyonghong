@@ -1,0 +1,59 @@
+body {
+  background-color: #efefef;
+}
+.header_box {
+  height: 65px;
+  background-color: #fff;
+  display: flex;
+}
+.header_box .header_left {
+  flex: 1;
+  color: #666;
+  font-family: '微软雅黑';
+  height: 30px;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 10px;
+}
+.header_box .header_title {
+  font-size: 20px;
+  font-family: '微软雅黑';
+  margin-top: 25px;
+}
+.header_box .header_right {
+  flex: 1;
+  color: #f36c39;
+  font-family: '微软雅黑';
+  height: 30px;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: 10px;
+}
+.input_box input {
+  margin-top: 20px;
+  height: 45px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  font-family: '微软雅黑';
+}
+.input_box_two input {
+  margin-top: 20px;
+  height: 45px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  font-family: '微软雅黑';
+}
+.input_two textarea {
+  margin-top: 20px;
+  height: 200px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  font-family: '微软雅黑';
+  line-height: 25px;
+}

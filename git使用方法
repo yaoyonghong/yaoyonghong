@@ -1,0 +1,24 @@
+*命令
+
+下载，仅在第一次获取项目
+git clone<url>
+
+第一次使用git，需要添加用户配置（提交信息发生变更）
+git config --global user.name "name(自己的项目命名)"
+git config --global user.email "自己的邮箱"
+
+需要提交的时候
+首先更新
+git pull origin master
+
+提交工作区到缓存
+git.add
+
+提交缓存到本地仓库，提交信息填写本次
+git commit -m"message"
+
+推送本地仓库到远程仓库
+git push origin master
+
+
+git切换远程分支（即远程仓库地址）

@@ -1,0 +1,199 @@
+body {
+  background: #efeff4;
+}
+.header {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+}
+.header_title {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  font-size: 20px;
+  font-family: '微软雅黑';
+  margin-left: 200px;
+}
+.header_title:after {
+  position: absolute;
+  left: 145px;
+  top: -8px;
+  content: '';
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url("../../img/nav_set_icon@2x.png") no-repeat right;
+  background-size: 50%;
+}
+.login_box {
+  position: relative;
+  display: flex;
+  height: 95px;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+.login_box .login_img {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  width: 65px;
+  height: 65px;
+  margin-top: -32px;
+  border-radius: 50%;
+  background: url("../../img/content_img_user@2x.png");
+  background-size: cover;
+}
+.login_box .login_con {
+  padding-left: 80px;
+  line-height: 95px;
+  font-family: '微软雅黑';
+}
+.login_box:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  display: block;
+  margin-top: -18px;
+  width: 20px;
+  height: 36px;
+  background: url("");
+  background-size: 50%;
+}
+.link_cell {
+  height: 50px;
+  padding-left: 45px;
+  background: #fff url("../../img/content_list_icon01@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+  line-height: 50px;
+  font-family: '微软雅黑';
+}
+.link_cell:after {
+  position: absolute;
+  right: 15px;
+  top: 375px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 30px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat right center;
+  background-size: 50%;
+}
+.link_cell0 {
+  height: 50px;
+  padding-left: 45px;
+  background: #fff url("../../img/content_list_icon02@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+  line-height: 50px;
+  margin-top: 18px;
+  color: #646464;
+  font-family: '微软雅黑';
+}
+.link_cell0:after {
+  position: absolute;
+  right: 15px;
+  top: 240px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 30px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat right center;
+  background-size: 50%;
+}
+.link_cell2 {
+  height: 50px;
+  padding-left: 45px;
+  background: #fff url("../../img/content_list_icon03@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+  line-height: 50px;
+  margin-top: 18px;
+  color: #646464;
+  font-family: '微软雅黑';
+}
+.link_cell2:after {
+  position: absolute;
+  right: 15px;
+  top: 308px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 30px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat right center;
+  background-size: 50%;
+}
+.link_cell3 {
+  height: 50px;
+  padding-left: 45px;
+  background: #fff url("../../img/content_list_icon04@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+  line-height: 50px;
+  margin-top: 18px;
+  color: #646464;
+  font-family: '微软雅黑';
+}
+.link_cell3:after {
+  position: absolute;
+  right: 15px;
+  top: 440px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 30px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat right center;
+  background-size: 50%;
+}
+.link_cell4 {
+  height: 50px;
+  padding-left: 45px;
+  background: #fff url("../../img/content_list_icon05@2x.png") no-repeat left 15px center;
+  background-size: 20px;
+  line-height: 50px;
+  margin-top: 18px;
+  color: #646464;
+  font-family: '微软雅黑';
+}
+.link_cell4:after {
+  position: absolute;
+  right: 15px;
+  top: 510px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 30px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat right center;
+  background-size: 50%;
+}
+.s_box {
+  height: 45px;
+  background: #fff;
+  border-top: 1px solid #d6d7dc;
+  line-height: 45px;
+  display: flex;
+}
+.s_box div {
+  flex: 1;
+  border-right: 1px solid #d6d7dc;
+  text-align: center;
+  color: #999;
+}
+.s_box div .zero {
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 8px;
+  color: #000;
+  font-family: '微软雅黑';
+}
+.login_box {
+  background: #fff;
+}
+.login_box:after {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 30px;
+  background: url("../../img/content_list_right_icon@2x.png") no-repeat right center;
+  background-size: 50%;
+}

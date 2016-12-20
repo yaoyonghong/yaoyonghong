@@ -1,0 +1,128 @@
+body {
+  background-color: #efefef;
+}
+.header {
+  height: 65px;
+  background-color: #fff;
+  display: flex;
+  border-bottom: 1px solid #d6d7dc;
+}
+.header .icon-back {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 25%;
+}
+.header .header_title {
+  flex: 1;
+  padding-right: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-family: '微软雅黑';
+  font-size: 20px;
+}
+.header_box {
+  position: relative;
+  padding: 15px;
+  background-color: #fff;
+}
+.header_box .header_text {
+  color: #ea5404;
+  font-family: '微软雅黑';
+  margin-left: 75px;
+}
+.header_box .header_right {
+  color: #494949;
+  font-family: '微软雅黑';
+  margin-left: 165px;
+}
+.header_box .header_div {
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  height: 30px;
+  width: 0.5px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+.demand_cells {
+  padding: 15px;
+}
+.demand_cell {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px #ccc;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.demand_cell .demand-title {
+  display: flex;
+  height: 30px;
+  padding: 0 10px;
+  border-bottom: 1px solid #cecece;
+}
+.demand_cell .demand-title .d-t-name {
+  flex: 1;
+  line-height: 30px;
+  font-family: '微软雅黑';
+}
+.demand_cell .demand-title .d-t-tag {
+  display: inline-block;
+  width: 50px;
+  heigth: 16px;
+  margin: 7px 0;
+  color: #fff;
+  background-color: #32cd32;
+  border-radius: 5px;
+  padding: 2px 0;
+  line-heigth: 16px;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+}
+.demand_cell .demand-title .d-t-tag-tag1 {
+  display: inline-block;
+  width: 50px;
+  heigth: 16px;
+  margin: 7px 0;
+  color: #fff;
+  background-color: #0193e6;
+  border-radius: 5px;
+  padding: 2px 0;
+  line-heigth: 16px;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+}
+.demand_cell .demand-info {
+  margin: 0;
+  padding: 10px;
+  line-height: 1.2em;
+  font-family: '微软雅黑';
+}
+.demand_cell .demand-footer {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px 10px;
+}
+.demand_cell .demand-footer .btn-detail {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+  background-color: #efefef;
+  text-align: center;
+  color: #646464;
+  font-family: '微软雅黑';
+}
+.demand_cell .demand-footer .text-time {
+  flex: 1;
+  font-size: 13px;
+  font-style: normal;
+  font-size: 0.8rem;
+  text-align: right;
+  font-family: '微软雅黑';
+}
