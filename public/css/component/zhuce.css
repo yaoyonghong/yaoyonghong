@@ -149,17 +149,52 @@ body {
   font-size: 13px;
   color: #c7c7c7;
 }
+.info_box .info_pic4 {
+  background: url("../../img/content_password_icon@2x.png") no-repeat center;
+  background-size: 70%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 210px;
+}
+.info_box .info_title4 {
+  color: #666;
+  position: absolute;
+  left: 45px;
+  top: 215px;
+  font-family: '微软雅黑';
+  font-size: 16px;
+  right: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c0c0c0;
+}
+.info_box .info_title4 .info_right4 {
+  font-size: 13px;
+  color: #c7c7c7;
+}
 .footer_box {
   width: 90%;
   height: 50px;
   background-color: #c1c1c1;
   border-radius: 8px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .footer_box .footer_title {
   color: #fff;
   font-family: '微软雅黑';
   text-align: center;
   padding-top: 15px;
+}
+.bottom {
+  color: #727272;
+  font-size: 12px;
+  font-family: '微软雅黑';
+  position: absolute;
+  left: 20%;
+  top: 455px;
+}
+.bottom .bottom_right {
+  color: #ed7345;
 }
